@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Mono', sans-serif;
+}
+
+.author {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #000000;
+}
+
+button {
+  background: #333333;
+  border: none;
+  width: 216px;
+  height: 68px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.container {
+  margin-left: 77px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 110px;
+  margin-right: 77px;
+  color: #BDBDBD;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 64px;
+  width: 670px;
+  color: #333333;
+}
+
+header {
+  margin-top: 40px;
+  font-weight: 700;
+}
+
+img {
+  width: 540px;
+  height: 447px;
+  margin-right: 120px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.main-text {
+  width: 381px;
+  margin-top: 36px;
+  margin-bottom: 64px;
+  font-size: 24px;
+  color: #4F4F4F;
+}
+
+@media screen and (max-width: 600px) {
+
+  .container {
+    margin-left: 24px;
+  }
+
+  footer {
+    margin-top: 90px;
+    margin-right: 24px;
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 46px;
+    width: 350px;
+  }
+
+  header {
+    margin-top: 20px;
+  }
+
+  img {
+    width: 286px;
+    height: 238px;
+    margin: 25px 0 20px 20px;
+  }
+
+  main {
+    display: initial;
+  }
+
+  .main-text {
+    width: 328px;
+    margin-top: 30px;
+    margin-bottom: 66px;
+    font-size: 18px;
+  }
+}
